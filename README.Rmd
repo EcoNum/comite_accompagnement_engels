@@ -1,0 +1,18 @@
+---
+title: "Comité d'accompagnement de Guyliann Engels"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Ce dépôt centre tous les documents et informations employé pour le comité d'accompagnement de **Guyliann Engels**
+
+## Auteur
+
+* [Engels Guyliann](http://www.guyliann.be)
+
+## Organisation
+
+Ce projet comprend un dossier comité qui regroupe les documents employés lors des différents comités d'accompagnements.
