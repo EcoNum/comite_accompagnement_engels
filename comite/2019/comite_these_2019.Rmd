@@ -3,6 +3,7 @@ title: "Rapport pour le comité de thèse"
 author: "Guyliann Engels"
 date: "`r format(Sys.Date(), '%d-%m-%Y')`"
 output:
+  pdf_document:
   prettydoc::html_pretty:
     theme: cayman
     highlight: vignette
