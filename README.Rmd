@@ -15,4 +15,4 @@ Ce dépôt centre tous les documents et informations employé pour le comité d'
 
 ## Organisation
 
-Ce projet comprend un dossier comité qui regroupe les documents employés lors des différents comités d'accompagnements.
+Ce projet regroupe les documents employés lors des différents comités d'accompagnements.

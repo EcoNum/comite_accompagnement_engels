@@ -11,4 +11,4 @@ Auteur
 Organisation
 ------------
 
-Ce projet comprend un dossier comité qui regroupe les documents employé lors des différents comités d'accompagnements.
+Ce projet regroupe les documents employés lors des différents comités d'accompagnements.
