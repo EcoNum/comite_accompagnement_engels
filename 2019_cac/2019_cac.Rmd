@@ -5,7 +5,7 @@ date: "`r format(Sys.Date(), '%d-%m-%Y')`"
 output: pdf_document
 ---
 
-# Compte rendu 
+# Avancement de la recherche
 
 L'étude des réponses écophysiologiques des coraux à des stress par des méthodes non destructives et en mésocosmes (limite du nombre d'individus) requiert l'utilisation de techniques et d'outils particuliers. 
 
@@ -23,7 +23,22 @@ De manière transversale, ces recherches se veulent reproductibles et en accord 
 
 ## Publications 
 
-Cette section est générée via la [Dépôt institutionnel de l’Université de Mons](http://di.umons.ac.be/catalogue.aspx) (DI-UMONS) et se trouve en annexe de ce document.
+### Présentation
+
+- Grosjean Philippe, Engels Guyliann, "Est-il possible d’améliorer encore la courbe d’apprentissage de R au delà de tidyverse? Les packages flow et chart." in "Septièmes rencontres R" , Rennes, France (2018)
+
+- Richir Jonathan, Abadie Arnaud, Borges Alberto, Champenois Willy, Santos Rui, Silva Joa, Walz Steffen, Lejeune Pierre, Engels Guyliann, Gobert Sylvie, "Etude de la photosynthèse de Posidonia oceanica par fluorimétrie modulée" in "Workshop STARECAPMED" , Calvi, France (2018)
+
+### Poster
+
+- Engels Guyliann, Georges Nadège, Conotte Raphaël, Batigny Antoine, Grosjean Philippe, "Réponses écophysiologiques de Seriatopora hystrix (Dana, 1846) lors de stress hypo- et hypersalin" in "Mardi des Chercheurs" , Mons, Belgique (2019)
+2018
+
+- Engels Guyliann, Georges Nadège, Conotte Raphaël, Batigny Antoine, Grosjean Philippe, "Ecophysiological responses of Seriatopora hystrix (Dana, 1846) to short-term hypo- and hypersaline stress" in "The 25th Benelux congress of Zoology, “Zoology in the Anthropocene”" , Anvers, Belgique (2018)
+
+- Engels Guyliann, Grosjean Philippe, "Introduction de nouveaux outils (learn, GitHub Classroom,...) dans les cours de Science des données en biologie" in "Septièmes rencontres R" , Rennes, France (2018)
+2017
+
 
 ## Liste des activités supplémentaires.
 
@@ -39,7 +54,7 @@ Présence à le conférence annuelle du Centre Interuniversitaire de Biologie Ma
 
 Formation d'1/2 journée sur le deep learning durant la septièmes rencontres R (Rennes, France)
 
-## Liste des activités pour la formation doctorale
+# Activités à valoriser pour la formation doctorale
 
 - 1 journée : Conférence du **CIBIM**
 - 3 journées : Conférences **Septièmes rencontres R**
