@@ -1,0 +1,48 @@
+---
+title: "Rapport pour le comité d'accompagnement, troisième année de thèse"
+author: "Guyliann Engels"
+date: "`r format(Sys.Date(), '%d-%m-%Y')`"
+bibliography: "My Collection.bib"
+output: pdf_document
+---
+
+# Avancement de la recherche
+
+## Titre provisoire de la thèse: 
+
+...
+
+## Résumé : 
+
+...
+
+L'objectif de ce travail est de ...
+
+## Chapitre 1 : Suivi de la dynamique zooplanctonique en subsurface au cours du temps en baie de Calvi Corse
+
+...
+
+**Avancement** Un premier article est paru sur cette année sur cette thématique [@Fullgrabe2020]. Entre 2004 et 2016, 14 groupes taxonomiques ont été étudié. Néanmoins, cette première étude descriptive va être complétée avec des données collectées en 2017 et 2018. Le nombre de groupes étudié va également être augmenté. Enfin, de nouveaux outils vont être employés afin de déterminer une année typique.
+
+## Chapitre 2 : Comparaison entre les organismes planctoniques de subsurface et de profondeur en baie de Calvi Corse.
+
+...
+
+
+**Avancement** : Une publication est en préparation concernant ce chapitre. 
+
+## Chapitre 3 : Amélioration de l'indentification et de la classification des organismes zooplanctonique
+
+...
+
+**Avancement** :  Deux publications sont en cours de finalisation sur *Assessment of active learning for semi-automatic classification of plankton digital images with Zoo/PhytoImage* et *Error correction of automatic classification of plankton digital images through partial validation of suspect items in Zoo/PhytoImage*. Nous menons également des recherches afin d'améliorer la détection et la classification des classes considérées comme rare.
+
+# Publications et communications scientifiques
+
+L'ensemble des publications et communications scientifiques sont regroupés dans le fichier `publication_di_20201023.pdf`.
+
+Parmi les publications et communications scientifiques, les travaux les plus importants sont cités ci-dessous :
+
+## Publications
+
+
