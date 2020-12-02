@@ -3,6 +3,7 @@ title: "Rapport pour le comité d'accompagnement, troisième année de thèse"
 author: "Guyliann Engels"
 date: "`r format(Sys.Date(), '%d-%m-%Y')`"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 bibliography: My Collection.bib
@@ -18,14 +19,13 @@ bibliography: My Collection.bib
 
 Le suivi de la dynamique du zooplancton est capital. Les organismes sont très intéressants comme indicateurs de changements.
 
-
-L'objectif de ce travail est de ...
+...
 
 ## Chapitre 1 : Suivi de la dynamique zooplanctonique en subsurface au cours du temps en baie de Calvi Corse
 
 Le suivi de la communauté planctonique est un élément majeur dans ... 
 
-L'originalité de cete étude est la définition de 8 stades qui représente l'état de la communauté planctonique. Ces stades sont déterminé avec un arbre de partitionnements.
+L'originalité de cette étude est la définition de 8 stades qui représente l'état de la communauté planctonique. Ces stades sont déterminé avec un arbre de partitionnements.
 
 ![](images/2020_FULLGRABE_zooplankton_dynamics_mediterranean_sea3.png)
 
@@ -41,11 +41,14 @@ Le nombre d'occurrence maximal des stades permet de définir un profil annuel ty
 
 La méthode d'échantillonnage la plus utilisées est le trait de filet. Cette méthode est peu couteuse et simple de mise en œuvre. Elle permet d'avoir une estimation de l'abondance planctonique. 
 
-On recense principalement 3 types de traits : les traits verticaux, les traits horizontaux et les traits obliques.
+On recense principalement 3 types de traits : les traits verticaux, les traits horizontaux et les traits obliques. Les traits verticaux sont les traits les plus utilisés. 
 
-Les traits verticaux sont les 
+La station de recherche de Calvi réalisé des prélèvements via des traits de plancton horizontaux depuis .2003 . Ils ont également débuté des prélèvements verticaux depuis 2012 . 
 
-**Avancement** : Une publication est en préparation concernant ce chapitre. 
+30 échantillons ont été sélectionnée afin de réaliser cette comparaison. 
+
+**Avancement** : Des recherches sont menées afin de proposer une comparaison entre les deux types de traits. Cette comparaison a pour objectif de comparer les valeurs obtenues avec les autres séries temporelles menées sur le plancton en Europe (ajouter le nombre de série en cours  ...). 
+
 
 ## Chapitre 3 : Correction des erreurs du à la classification automatique via la validation de suspects.
 
@@ -64,33 +67,23 @@ Ce processus est itératif. Les éléments validés sont employée pour amélior
 En partant du principe que la validation ne comprend aucune erreur, la validation manuelle classique va permettre de corriger les erreurs. Lorsque 100% de l'échantillon est validé, l'erreur tombe à 0%. 
 
 
-
-
 ![](images/error_correction2.png)
 
 L'axe Y montre la dissimilarité entre les abondances prédites de chaque classe au sein de l'échantillon et les abondances réelles (obtenue en classant manuellement chaque items). L'axe X indique le pourcentage d'items validés manuellement. 
 
 La ligne en pointillé grisée indique la diminution linéaire du la dissimilarité lors de la validation manuelle de chaque item. Il faut dépasser 80% afin de tomber sous les 5% de dissimilarité. 
 
-en fonction  par lors de la validation manuelle.
-
-
-Un échantillon prélevé est prélevé et la composition
-
-que l'on peut estimer via de la validation croisée.
-
-Il est possible d'utiliser 
-
-Cette méthode laisse comprend actuellement encore trop d'erreur. Il est donc nécessaire de trouver des solutions afin d'améliorer la classification sans passer par une étape de validation manuelle de l'ensemble des échantillons.
-
-Nous menons également des recherches afin d'améliorer la détection et la classification des classes considérées comme rare.
-
 ...
 
-**Avancement** :  Une publication est en cours de finalisation sur *Error correction of automatic classification of plankton digital images through partial validation of suspect items in Zoo/PhytoImage*.
+**Avancement** : 
+
+Une publication est en cours d'écriture sur *Error correction of automatic classification of plankton digital images through partial validation of suspect items in Zoo/PhytoImage*.
+
+Des tests vont débuter sur la correction d'erreur sur des échantillons de zooplancton. 
 
 ## Chapitre 4 : ...
 
+...
 
 **Avancement** :  Une publication est en cours de finalisation sur *Assessment of active learning for semi-automatic classification of plankton digital images with Zoo/PhytoImage*.
 
@@ -98,8 +91,8 @@ Nous menons également des recherches afin d'améliorer la détection et la clas
 
 Les données suivantes sont disponibles  et vont être employées dans le cadre de cette étude 
 
-- Serie temporelle horizontale de la baie de Calvi
-- Série temporelle verticale de la baie de Celvi
+- Série temporelle horizontale de la baie de Calvi : 335 échantillons 
+- Série temporelle verticale de la baie de Calvi : 76 échantillons 
 
 # Activités valorisables pour la formation doctorale
 
