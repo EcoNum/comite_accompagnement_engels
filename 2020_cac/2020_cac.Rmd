@@ -49,7 +49,39 @@ Les traits verticaux sont les
 
 ## Chapitre 3 : Correction des erreurs du à la classification automatique via la validation de suspects.
 
-La classification automatique du plancton est très employée actuellement. 
+La classification automatique est très employée actuellement afin de classer rapidement des images de plancton.  La classification se base sur un training set et d'algorithme qui vont utiliser ce set d'apprentissage afin de classer les items inconnues. Cette méthode seule comprend encore trop d'erreurs.
+
+Différents outils ont été proposé afin d'améliorer la classification prédite par les algorithmes sur base du training set. La méthode la plus simple mais la plus longue est de réaliser une validation manuelle de chaque items. La classification automatique est employé comme un outil qui propose une classe uniquement. Elle requiert néanmoins d'avoir une expert en taxonomie qui valide en permanence les échantillons de plancton.
+
+Une méthode de validation plus rapide est de déterminer des items suspects et de valider principalement ces items. Le schéma ci-dessous propose un schéma de la méthode.
+
+![](images/error_correction1.png)
+
+On définit la composition d'un échantillon prélevé sur base d'outils de classifications automatiques. Les items peuvent être classé en items suspects ou en items de confiance (lors de la première détection, tous les items sont des suspects). Parmi ces items, une proportion de maximum 5% des images de l'échantillon sont à valider. Il y aura un faible proportion d'items aléatoires, une large proportion d'items suspects et une faible proportion d'items de confiances. Sur base des validations manuelles de nouvelles matrices de confusion sont calculées. 
+
+Ce processus est itératif. Les éléments validés sont employée pour améliorer la classification et la détection de nouveaux suspects à valider. Cette méthode permet donc de s'attarder principalement sur les items suspects d'un échantillon. 
+
+En partant du principe que la validation ne comprend aucune erreur, la validation manuelle classique va permettre de corriger les erreurs. Lorsque 100% de l'échantillon est validé, l'erreur tombe à 0%. 
+
+
+
+
+![](images/error_correction2.png)
+
+L'axe Y montre la dissimilarité entre les abondances prédites de chaque classe au sein de l'échantillon et les abondances réelles (obtenue en classant manuellement chaque items). L'axe X indique le pourcentage d'items validés manuellement. 
+
+La ligne en pointillé grisée indique la diminution linéaire du la dissimilarité lors de la validation manuelle de chaque item. Il faut dépasser 80% afin de tomber sous les 5% de dissimilarité. 
+
+en fonction  par lors de la validation manuelle.
+
+
+Un échantillon prélevé est prélevé et la composition
+
+que l'on peut estimer via de la validation croisée.
+
+Il est possible d'utiliser 
+
+Cette méthode laisse comprend actuellement encore trop d'erreur. Il est donc nécessaire de trouver des solutions afin d'améliorer la classification sans passer par une étape de validation manuelle de l'ensemble des échantillons.
 
 Nous menons également des recherches afin d'améliorer la détection et la classification des classes considérées comme rare.
 
@@ -61,6 +93,13 @@ Nous menons également des recherches afin d'améliorer la détection et la clas
 
 
 **Avancement** :  Une publication est en cours de finalisation sur *Assessment of active learning for semi-automatic classification of plankton digital images with Zoo/PhytoImage*.
+
+# Données disponibles
+
+Les données suivantes sont disponibles  et vont être employées dans le cadre de cette étude 
+
+- Serie temporelle horizontale de la baie de Calvi
+- Série temporelle verticale de la baie de Celvi
 
 # Activités valorisables pour la formation doctorale
 
