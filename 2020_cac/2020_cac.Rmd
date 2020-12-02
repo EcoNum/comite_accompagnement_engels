@@ -14,13 +14,22 @@ output: pdf_document
 
 ## Résumé : 
 
-...
+Le suivi de la dynamique du zooplancton est capital. Les organismes sont très intéressants comme indicateurs de changements.
+
 
 L'objectif de ce travail est de ...
 
 ## Chapitre 1 : Suivi de la dynamique zooplanctonique en subsurface au cours du temps en baie de Calvi Corse
 
-...
+Le suivi de la communauté planctonique est un élément majeur dans ... 
+
+L'originalité de cete étude est la définition de 8 stades qui représente l'état de la communauté planctonique. Ces stades sont déterminé avec un arbre de partitionnements.
+
+![](images/2020_FULLGRABE_zooplankton_dynamics_mediterranean_sea3.png)
+
+Le nombre d'occurrence maximal des stades permet de définir un profil annuel type. 
+
+![](images/2020_FULLGRABE_zooplankton_dynamics_mediterranean_sea2.png)
 
 **Avancement** Un premier article est paru sur cette année sur cette thématique [@Fullgrabe2020]. Entre 2004 et 2016, 14 groupes taxonomiques ont été étudié. Néanmoins, cette première étude descriptive va être complétée avec des données collectées en 2017 et 2018. Le nombre de groupes étudié va également être augmenté. Enfin, de nouveaux outils vont être employés afin de déterminer une année typique.
 
@@ -28,6 +37,11 @@ L'objectif de ce travail est de ...
 
 ...
 
+La méthode d'échantillonnage la plus utilisées est le trait de filet. Cette méthode est peu couteuse et simple de mise en œuvre. Elle permet d'avoir une estimation de l'abondance planctonique. 
+
+On recense principalement 3 types de traits : les traits verticaux, les traits horizontaux et les traits obliques.
+
+Les traits verticaux sont les 
 
 **Avancement** : Une publication est en préparation concernant ce chapitre. 
 
