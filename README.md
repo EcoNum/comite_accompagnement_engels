@@ -1,14 +1,14 @@
-Comité d'accompagnement de Guyliann Engels
+Comité d’accompagnement de Guyliann Engels
 ================
 
-Ce dépôt centre tous les documents et informations employé pour le comité d'accompagnement de **Guyliann Engels**
+Ce dépôt centre tous les documents et informations employés pour le
+comité d’accompagnement de **Guyliann Engels**
 
-Auteur
-------
+## Auteur
 
--   [Engels Guyliann](http://www.guyliann.be)
+  - [Engels Guyliann](http://www.guyliann.be)
 
-Organisation
-------------
+## Organisation
 
-Ce projet regroupe les documents employés lors des différents comités d'accompagnements.
+Ce projet regroupe les documents employés lors des différents comités
+d’accompagnements.

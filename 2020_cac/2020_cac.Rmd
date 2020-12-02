@@ -2,8 +2,10 @@
 title: "Rapport pour le comité d'accompagnement, troisième année de thèse"
 author: "Guyliann Engels"
 date: "`r format(Sys.Date(), '%d-%m-%Y')`"
-bibliography: "My Collection.bib"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
+bibliography: My Collection.bib
 ---
 
 # Avancement de la recherche
@@ -45,18 +47,30 @@ Les traits verticaux sont les
 
 **Avancement** : Une publication est en préparation concernant ce chapitre. 
 
-## Chapitre 3 : Amélioration de l'indentification et de la classification des organismes zooplanctonique
+## Chapitre 3 : Correction des erreurs du à la classification automatique via la validation de suspects.
+
+La classification automatique du plancton est très employée actuellement. 
+
+Nous menons également des recherches afin d'améliorer la détection et la classification des classes considérées comme rare.
 
 ...
 
-**Avancement** :  Deux publications sont en cours de finalisation sur *Assessment of active learning for semi-automatic classification of plankton digital images with Zoo/PhytoImage* et *Error correction of automatic classification of plankton digital images through partial validation of suspect items in Zoo/PhytoImage*. Nous menons également des recherches afin d'améliorer la détection et la classification des classes considérées comme rare.
+**Avancement** :  Une publication est en cours de finalisation sur *Error correction of automatic classification of plankton digital images through partial validation of suspect items in Zoo/PhytoImage*.
 
-# Publications et communications scientifiques
+## Chapitre 4 : ...
+
+
+**Avancement** :  Une publication est en cours de finalisation sur *Assessment of active learning for semi-automatic classification of plankton digital images with Zoo/PhytoImage*.
+
+# Activités valorisables pour la formation doctorale
 
 L'ensemble des publications et communications scientifiques sont regroupés dans le fichier `publication_di_20201023.pdf`.
 
-Parmi les publications et communications scientifiques, les travaux les plus importants sont cités ci-dessous :
+## Activités supplémentaires valorisables pour la formation doctorale
 
-## Publications
+- 1 décembre 2020 (2h) :RBZS Workshop Present your Research with Impact
+- 8 décembre 2020 (2h) : RBZS Workshop ...
+
+# Publications
 
 
