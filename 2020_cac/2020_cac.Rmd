@@ -100,7 +100,35 @@ L'ensemble des publications et communications scientifiques sont regroupés dans
 
 ## Activités supplémentaires valorisables pour la formation doctorale
 
+- 2020
+  + 2h de séminaire : ...
+  + 2h de séminaire : RBZS Workshop Present your Research with Impact (1 décembre)
+  + 4h (temps estimé) de formation sur OpenClassrooms :*Adoptez les API REST pour vos projets web*
+  + 8h (temps estimé) de formation sur OpenClassrooms :*Réalisez des rapports statistiques clairs et impactants*
+  + 8h (temps estimé) de formation sur OpenClassrooms :*Testez vos idées avec le lean prototyping*
+  + 12h (temps estimé) de formation sur OpenClassrooms :*Initiez-vous à Python pour l'analyse de données*
+  + 20h (temps estimé) de formation sur OpenClassrooms :*Initiez-vous à l'algèbre relationnelle avec le langage SQL*
+  + 4h (temps estimé) de formation sur OpenClassrooms :*Mettez en place un système de veille informationnelle*
+  + 12h (temps estimé) de formation sur OpenClassrooms :*Gérez votre temps efficacement*
+  + 12h (temps estimé) de formation sur OpenClassrooms :*Initiez-vous à la statistique inférentielle*
+  + 12h (temps estimé) de formation sur OpenClassrooms :*Initiez-vous au langage R pour analyser vos données*
+  + 12h (temps estimé) de formation sur OpenClassrooms portant : *Utilisez Git et GitHub pour vos projets de développement*
+- 2019
+    + 1/2 journée de formation sur *Getting the most out of Git*
+    + 1/2 journée de formation sur *R/exams: A One-For-All Exams
+Generator* lors useR 2019 à Toulouse
+   
+- 2018
+    + Formation sur le deep learning. Formation d'1/2 journée sur le deep learning durant la septièmes rencontres R (Rennes, France) en 2018.
+    
+- 2017
+    + C.I.B.I.M. (présence) Présence à le conférence annuelle du Centre Interuniversitaire de Biologie Marine à Louvain La Neuve 2017.
+
+
+
+-
 - 1 décembre 2020 (2h) :RBZS Workshop Present your Research with Impact
+
 - 8 décembre 2020 (2h) : RBZS Workshop ...
 
 # Publications
