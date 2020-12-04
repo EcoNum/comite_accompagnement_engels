@@ -17,10 +17,9 @@ bibliography: My Collection.bib
 
 ## Résumé : 
 
-Le plancton est un élément majeur des écosystèmes marins. Des études proposent d'utiliser le plancton comme indicateur de l'état de la qualité de l'eau   ... De ce fait le suivi de la dynamique du plancton est un enjeu capital.
+Le plancton est un élément majeur des écosystèmes marins. Le suivi de la dynamique du plancton est un enjeu capital.
 
 L'étape limitante actuelle dans ce suivi et l'analyse des échantillons prélevés. La classification automatique du plancton sur base d'image a permis de gagner en vitesse par rapport à une classification manuelle. Cependant de nombreuses questions reste en suspens sur la qualité de la classification. 
-
 
 ## Chapitre 1 : Suivi de la dynamique zooplanctonique en subsurface au cours du temps en baie de Calvi Corse
 
@@ -70,27 +69,18 @@ Une méthode de validation plus rapide est de déterminer des items suspects et 
 
 On définit la composition d'un échantillon prélevé sur base d'outils de classifications automatiques. Les items peuvent être classé en items suspects ou en items de confiance (lors de la première détection, tous les items sont des suspects). Parmi ces items, une proportion de maximum 5% des images de l'échantillon sont à valider. Il y aura un faible proportion d'items aléatoires, une large proportion d'items suspects et une faible proportion d'items de confiances. Sur base des validations manuelles de nouvelles matrices de confusion sont calculées. 
 
-Ce processus est itératif. Les éléments validés sont employée pour améliorer la classification et la détection de nouveaux suspects à valider. Cette méthode permet donc de s'attarder principalement sur les items suspects d'un échantillon. 
+Ce processus est itératif. Les éléments validés sont employées pour améliorer la classification et la détection de nouveaux suspects à valider. Cette méthode permet donc de s'attarder principalement sur les items suspects d'un échantillon.
 
-En partant du principe que la validation ne comprend aucune erreur, la validation manuelle classique va permettre de corriger les erreurs. Lorsque 100% de l'échantillon est validé, l'erreur tombe à 0%. 
-
-
-![](images/error_correction2.png)
-
-L'axe Y montre la dissimilarité entre les abondances prédites de chaque classe au sein de l'échantillon et les abondances réelles (obtenue en classant manuellement chaque items). L'axe X indique le pourcentage d'items validés manuellement. 
-
-La ligne en pointillé grisée indique la diminution linéaire du la dissimilarité lors de la validation manuelle de chaque item. Il faut dépasser 80% afin de tomber sous les 5% de dissimilarité. 
+![](images/error_correction3.png)
 
 
 **Avancement** : 
 
 Une publication est en cours d'écriture sur *Error correction of automatic classification of plankton digital images through partial validation of suspect items in Zoo/PhytoImage*.
 
-Des tests vont débuter sur la correction d'erreur sur des échantillons de zooplancton de la baie de calvi afin de compléter les résultats obtenus sur le phytoplancton.
+Des tests vont débuter sur la correction d'erreur sur des échantillons de zooplancton de la baie de Calvi afin de compléter les résultats obtenus sur le phytoplancton.
 
 ## Chapitre 4 : ...
-
-**Ce chapitre est à l'état de réflexion.**
 
 Lors du lancement d'une nouvelle étude qui nécessite la classification automatique d'organismes planctoniques, il faut réaliser un set d'apprentissage le plus rapidement possible afin de pouvoir débuter l'étude. On utilise principalement deux méthodes pour classer des images de planctons. 
 
@@ -98,30 +88,30 @@ La première méthode consiste à classer quelques images dans les différents g
 
 Une seconde méthode consiste à classer un très grand nombre d'images dans chaque catégorie et d'utiliser des outils de deep learning comme CNN (convolutional Neural Networks). 
 
-Lors du lancement d'une étude, il n'est pas possible d'avoir une set d'apprentissage assez conséquent que pour employer le deep learning. Il existe des méthodes comme le transfer learning afin de pouvoir utiliser un set d'apprentissage plus restreint. Des algorithmes comme le RF sont déjà efficaces lorsque l'on a une 100 images par groupe.
+Lors du lancement d'une étude, il n'est pas possible d'avoir une set d'apprentissage assez conséquent que pour employer le deep learning. Il existe des méthodes comme le transfer learning afin de pouvoir utiliser un set d'apprentissage plus restreint. Des algorithmes comme le RF sont déjà efficaces lorsque l'on a une 30 images par groupe.
 
-Ce chapitre s'intéresse donc à la réflexion d'un protocole associant, une classification manuelle au début, suivi de classification automatique avec un RF associé aux outils de correction d'erreurs (chapitre 3) afin de valider les images.
+Cette étude porte sur la réflexion d'un protocole associant, une classification manuelle au début, suivi de classification automatique avec un algorithme comme le Random Forest associé aux outils de correction d'erreurs (chapitre 3) afin de valider les images et enfin une transition sur des outils de Deep Learning.
 
-Ce chapitre souhaite s'intéresser à comparer les deux approches et de mettre en avant à partir de quelle taille un set d'apprentissage est suffisant que pour que la seconde méthode soit plus efficace.
+**Avancement** : L'acquisition des données nécessaire à la réalisation de l'étude est terminée. La meilleure stratégie de transition entre le Machine Learning et le Deep Learning est en cours de réflexion.
 
 
 # Données disponibles
 
-Les données suivantes sont disponibles  et vont être employées dans le cadre de cette étude 
+Les données suivantes sont disponibles et vont être employées dans le cadre de cette étude. 
 
-- Série temporelle de Calvi ce qui représente environs 9000000 images
-    + 335 échantillons entre 2004 et 2016
-    + 76 échantillons entre 2012 et 2016
+La série de Calvi comprend environs 900000 images provenant de 335 échantillons de traits horizontaux (entre 2004 et 2016) et 76 échantillons de traits verticaux (entre 2012 et 2016). Un set d'apprentissage de 11255 images classé en 22 groupes (dont 15 correspondant à du zooplankton) est associé à cette série.
 
-- Série Belspo
-...
+Un jeu de données comprenant 57000 images a été collecté dans la baie de Tulear (Madagascar). Un set d'apprentissage de 25 groupes avec 1639 images a été réalisé.
 
-- IFREMER/REPHIS : un set d'apprentissage de 3787 images d'organisme phytoplancotniques (principalement)
+Un set d'apprentissage issu du projet AMORE III financé par BelSpo comprend 3313 images réparti en 25 groupes.
 
-- Open Data 
-    + ZooScanNet: plankton images captured with the ZooScan comprend 1433278 images collectée entre 2007 et 2017
-    + Kaggle challenge : National Data Science Bowl Predict ocean health, one plankton at a time avec 50000000 images
+Un set d'apprentissage global Manche-Atlantique 4X (Rephy/IFREMER) comprend 8508 images classées dans 59 groupes.
 
+Le jeu de données provenant du challenge Kaggle *National Data Science Bowl Predict ocean health, one plankton at a time* de 2015 propose un set d'apprentissage de 30336 images réparti en 121 groupes.
+
+Le ZooScanNet est un jeu donnée mondiale qui comprend 1433278 images réparti en 93 groupe. 
+
+Le jeu de données WHOI commprend 6600 images avec un set d'apprentissage associé de 22 catégories avec 300 items par groupe. Ces dimage sont obtenue via le FlowCytobot.
 
 # Activités valorisables pour la formation doctorale
 
