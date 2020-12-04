@@ -87,7 +87,7 @@ Des tests vont débuter sur la correction d'erreur sur des échantillons de zoop
 
 Une technique originale, appelée fishing, permet d’augmenter le set d’apprentissage par rapport aux classes les plus rares. Cette technique sera incorporée dans le processus de validation des suspects et de correction d’erreur
 
-## Chapitre 4 : ...
+## Chapitre 4 : Stratégie de classification optimisée du plancton depuis zéro vers le Deep Learning en passant par le Machine Learning
 
 Lors du lancement d'une nouvelle étude qui nécessite la classification automatique d'organismes planctoniques, il faut réaliser un set d'apprentissage le plus rapidement possible afin de pouvoir débuter l'étude. On utilise principalement deux méthodes pour classer des images de plancton. 
 
@@ -151,6 +151,6 @@ L'ensemble des publications et communications scientifiques sont regroupés dans
     + C.I.B.I.M. (présence) Présence à le conférence annuelle du Centre Interuniversitaire de Biologie Marine à Louvain La Neuve 2017.
 
 
-# Publications
+# Liste des publications
 
 
