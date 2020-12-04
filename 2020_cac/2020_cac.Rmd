@@ -82,7 +82,7 @@ Des tests vont débuter sur la correction d'erreur sur des échantillons de zoop
 
 ## Chapitre 4 : ...
 
-Lors du lancement d'une nouvelle étude qui nécessite la classification automatique d'organismes planctoniques, il faut réaliser un set d'apprentissage le plus rapidement possible afin de pouvoir débuter l'étude. On utilise principalement deux méthodes pour classer des images de planctons. 
+Lors du lancement d'une nouvelle étude qui nécessite la classification automatique d'organismes planctoniques, il faut réaliser un set d'apprentissage le plus rapidement possible afin de pouvoir débuter l'étude. On utilise principalement deux méthodes pour classer des images de plancton. 
 
 La première méthode consiste à classer quelques images dans les différents groupes de notre set d'apprentissage. Une série d'attributs vont être calculés sur chaque image. Sur base du tableau des attributs et de la classe de chaque image, des algorithmes comme le Random Forest sont employé pour réaliser la classification de nouvelles images.
 
