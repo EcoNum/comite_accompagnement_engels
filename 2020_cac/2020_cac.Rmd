@@ -67,18 +67,25 @@ Une méthode de validation plus rapide est de déterminer des items suspects et 
 
 ![](images/error_correction1.png)
 
-On définit la composition d'un échantillon prélevé sur base d'outils de classifications automatiques. Les items peuvent être classé en items suspects ou en items de confiance (lors de la première détection, tous les items sont des suspects). Parmi ces items, une proportion de maximum 5% des images de l'échantillon sont à valider. Il y aura un faible proportion d'items aléatoires, une large proportion d'items suspects et une faible proportion d'items de confiances. Sur base des validations manuelles de nouvelles matrices de confusion sont calculées. 
+On définit la composition d'un échantillon prélevé sur base d'outils de classifications automatiques. Les items peuvent être classé en items suspects ou en items de confiance (lors de la première détection, tous les items sont des suspects). Parmi les items à valider, il y aura un faible proportion d'items aléatoires, une large proportion d'items suspects et une faible proportion d'items de confiances. 
 
 Ce processus est itératif. Les éléments validés sont employées pour améliorer la classification et la détection de nouveaux suspects à valider. Cette méthode permet donc de s'attarder principalement sur les items suspects d'un échantillon.
 
-![](images/error_correction3.png)
+![](images/error_correction2.png)
 
+Le nombre de particule suspectes en fonction du nombre de validation est présenté sur la premier graphique. La hauteur des barres noires diminue progressivement à la suite des validations. La ligne bleue représente la différence entre les abondances corrigées obtenues après chaque étape avec l'étape précédente de validations. La ligne verticale nommé EC  indique e nombre de validation minimal afin d'avoir une dissimilarité des abondances inférieur à seuil par défaut de 5%. La ligne verticale nommé SD indique le nombre de validation à réaliser afin de valider tous les suspects de l'échantillon.
+
+Le second graphique met en évidence la proportion de suspects et la proportion d'erreurs corrigées lors de chaque validation. Le nombre de suspects diminue au cours des validations.
+
+La sélection des suspects est l'étape cruciale de la méthode afin de réduire le temps de validation de chaque échantillon. Les éléments fournis par la matrice de confusion, les classes rares ou encore les informations biologiques sont des éléments utilisés pour sélectionner les suspects. 
 
 **Avancement** : 
 
 Une publication est en cours d'écriture sur *Error correction of automatic classification of plankton digital images through partial validation of suspect items in Zoo/PhytoImage*.
 
 Des tests vont débuter sur la correction d'erreur sur des échantillons de zooplancton de la baie de Calvi afin de compléter les résultats obtenus sur le phytoplancton.
+
+Une technique originale, appelée fishing, permet d’augmenter le set d’apprentissage par rapport aux classes les plus rares. Cette technique sera incorporée dans le processus de validation des suspects et de correction d’erreur
 
 ## Chapitre 4 : ...
 
