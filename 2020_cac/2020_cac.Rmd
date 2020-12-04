@@ -13,21 +13,21 @@ bibliography: My Collection.bib
 
 ## Titre provisoire de la thèse: 
 
-...
+Suivi de la dynamique du mésozooplancton en baie de Calvi (France) via la classification semi-automatisée d'images.
 
 ## Résumé : 
 
-Le plancton est un élément majeur des écosystèmes marins. Le suivi de la dynamique du plancton est un enjeu capital.
+Le plancton est un élément majeur des écosystèmes marins. Le suivi de la dynamique du plancton est un enjeu capital. Ce suivi est un indicateur intéressant de la qualité du milieu. 
 
-L'étape limitante actuelle dans ce suivi et l'analyse des échantillons prélevés. La classification automatique du plancton sur base d'image a permis de gagner en vitesse par rapport à une classification manuelle. Cependant de nombreuses questions reste en suspens sur la qualité de la classification. 
+L'étape limitante actuelle dans ce suivi est l'analyse des échantillons prélevés. La classification automatique du plancton sur base d'image a permis de gagner en vitesse par rapport à une classification manuelle. Cependant de nombreuses questions reste en suspens sur la qualité de la classification. 
 
 ## Chapitre 1 : Suivi de la dynamique zooplanctonique en subsurface au cours du temps en baie de Calvi Corse
 
-La communauté mésozooplanctonique est réparti en 14 groupes pour cette étude. L'étude s'intéresse à la description de la communauté entre 2004 et 2016. Les copépodes représentent la plus grande fraction des individus échantillonnées. 
+L'étude s'intéresse à la description de la communauté mésozooplanctonique dans la baie de Calvi entre 2004 et 2016. La communauté est répartie en 14 groupes pour cette étude. Les copépodes représentent la plus grande fraction des individus échantillonnés. 
 
 ![](images/2020_FULLGRABE_zooplankton_dynamics_mediterranean_sea4.png)
 
-Les anomalies de température de l'eau et les anomalies d'abondance totales des individus sont corrélées. De fortes températures réduisent l'abondance du plancton. Les années 2007, 2012 et 2015 sont des années particulières.
+Les anomalies de température de l'eau et les anomalies des abondances totales des individus sont corrélées. De fortes températures réduisent l'abondance du plancton. Les années 2007, 2012 et 2015 sont des années particulières.
 
 ![](images/2020_FULLGRABE_zooplankton_dynamics_mediterranean_sea1.png)
 
@@ -111,7 +111,7 @@ Le jeu de données provenant du challenge Kaggle *National Data Science Bowl Pre
 
 Le ZooScanNet est un jeu donnée mondiale qui comprend 1433278 images réparti en 93 groupe. 
 
-Le jeu de données WHOI commprend 6600 images avec un set d'apprentissage associé de 22 catégories avec 300 items par groupe. Ces dimage sont obtenue via le FlowCytobot.
+Le jeu de données WHOI comprend 6600 images avec un set d'apprentissage associé de 22 catégories avec 300 items par groupe. Ces images sont obtenue via le FlowCytobot.
 
 # Activités valorisables pour la formation doctorale
 
