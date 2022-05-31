@@ -176,6 +176,9 @@ L'ensemble des publications et communications scientifiques sont regroupées dan
 
 ## Activités supplémentaires valorisables pour la formation doctorale
 
+-   2021
+    -   2h30 de formation sur le *Développement d'applications mobiles* lors des Rencontres R 2021, Paris
+    -   3h30 de formation sur *Production-grade Shiny Apps with {golem}* lors de UseR2021,
 -   2020
     -   2h de séminaire : RBZS Workshop *Stress Management - keeping sane during your PhD* (8 décembre)
     -   2h de séminaire : RBZS Workshop *Present your Research with Impact* (1 décembre)
