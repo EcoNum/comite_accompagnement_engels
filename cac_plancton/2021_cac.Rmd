@@ -3,9 +3,9 @@ title: "Rapport pour le comité d'accompagnement, quatrième année de thèse"
 author: "Guyliann Engels"
 date: "`r format(Sys.Date(), '%d-%m-%Y')`"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 bibliography: My Collection.bib
 ---
 
